@@ -1,6 +1,6 @@
 {
   "name": "@zoopoetics/myna",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Pluggable linting, prettification, testing, and type checking.",
   "license": "UNLICENSED",
   "repository": {

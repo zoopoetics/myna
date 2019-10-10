@@ -1,0 +1,9 @@
+{
+  "extends": "@10x/myna/config/tsconfig",
+  "compilerOptions": {
+    "strict": false
+  },
+  "include": [
+    "**/*"
+  ]
+}

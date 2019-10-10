@@ -1,5 +1,5 @@
 {
-  "extends": "@10x/myna/config/tsconfig",
+  "extends": "@zoopoetics/myna/config/tsconfig",
   "compilerOptions": {
     "strict": false
   },

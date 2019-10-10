@@ -24,13 +24,13 @@ Myna strongly prefers minimal configuration and sensible defaults. Have a look i
 Either
 
 ```bash
-yarn install @10x/myna
+yarn install @zoopoetics/myna
 ```
 
 Or
 
 ```bash
-npm install @10x/myna
+npm install @zoopoetics/myna
 ```
 
 During installation:

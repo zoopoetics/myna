@@ -5,7 +5,7 @@ module.exports = {
   // Prevent static file imports from exploding
   moduleNameMapper: {
     "\\.(jpg|jpeg|png|gif|eot|otf|webp|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
-      "@10x/myna/config/jest/file-mock.js",
+      "@zoopoetics/myna/config/jest/file-mock.js",
   },
 
   // Ignore the Yarn cache in order to dodge Haste errors
@@ -21,9 +21,9 @@ module.exports = {
   // Transforms that prevent CSS, SVG, and other imports from exploding
   transform: {
     "^.+\\.(js|jsx|ts|tsx)$": "babel-jest",
-    "^.+\\.css$": "@10x/myna/config/jest/css-transform.js",
+    "^.+\\.css$": "@zoopoetics/myna/config/jest/css-transform.js",
     "^(?!.*\\.(js|jsx|ts|tsx|css|json)$)":
-      "@10x/myna/config/jest/file-transform.js",
+      "@zoopoetics/myna/config/jest/file-transform.js",
   },
 
   // Provides autocomplete for file and test name patterns in watch mode

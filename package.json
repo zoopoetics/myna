@@ -1,6 +1,6 @@
 {
   "name": "@zoopoetics/myna",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Pluggable linting, prettification, testing, and type checking.",
   "license": "UNLICENSED",
   "repository": {
@@ -52,5 +52,5 @@
     "webpack": "4.41.0",
     "yargs": "14.2.0"
   },
-  "prettier": "@10x/myna/config/prettier.config.js"
+  "prettier": "@zoopoetics/myna/config/prettier.config.js"
 }
